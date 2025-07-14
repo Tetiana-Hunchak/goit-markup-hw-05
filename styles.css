@@ -6,7 +6,7 @@ body {
 nav {
        width: 1440px;
        height: 72px;
-
+       list-style: none;
 }
 
 .logo{
@@ -41,6 +41,7 @@ address{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--slate);
+        list-style: none;
 
 }
 .solutions {
@@ -63,4 +64,75 @@ h1 {
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         color: #4d5ae5;
 
+}
+
+h3{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+}
+
+.benefits{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+        list-style: none;
+}
+
+.our-team {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--navy-blue);
+        list-style: none;
+}
+
+.name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--navy-blue);
+}
+
+.team {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--slate);
+}
+
+.our-portfolio {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--navy-blue);
+        list-style: none;
+}
+
+.portfolio {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+}
+
+.types {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate);
 }
