@@ -136,3 +136,17 @@ h3{
         letter-spacing: 0.02em;
         color: var(--slate);
 }
+
+.footer {
+        width: 1440px;
+        height: 312px;
+        background: #2e2f42;
+}
+
+.increase{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--cloud);
+}
