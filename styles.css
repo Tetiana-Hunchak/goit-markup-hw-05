@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 nav {
@@ -10,12 +12,12 @@ nav {
 }
 
 .logo{
+        font-family: "Raleway", sans-serif;
        font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--navy-blue);
         text-decoration: none;
 }
 
@@ -33,7 +35,33 @@ span{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--navy-blue);
+        list-style: none;
+}
+
+.header-list-studio{
+        color: #2e2f42;
+}
+.header-list-studio:hover,
+.header-list-studio:focus{
+        color: #404bbf;
+}
+
+.header-list-portfolio {
+        color: #2e2f42;
+}
+
+.header-list-portfolio:hover,
+.header-list-portfolio:focus{
+        color: #404bbf;
+}
+
+.header-list-contacts {
+        color: #2e2f42;
+}
+
+.header-list-contacts:hover,
+.header-list-contacts:focus{
+        color: #404bbf;
 }
 
 address{
@@ -45,15 +73,44 @@ address{
         list-style: none;
 
 }
-.solutions {
-    background-color: #2e2f42;
+
+address> contacts{
+        font-style: normal;
 }
 
-h1 {
-      font-weight: 700;
-      color: #fff;
-      width: 1440px;
-      height: 600px;
+.contacts-mail{
+        color: #434455;
+        list-style: none;
+}
+
+.contacts-mail:hover,
+.ontacts-mail:focus {
+       color: #404bbf;
+}
+
+.contacts-tel{
+        color: #434455;  
+        list-style: none; 
+}
+
+.contacts-tel:hover,
+.contacts.tel:focus{
+      color:   #404bbf;
+}
+
+.main {
+    background-color: #2e2f42;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+    font-weight: 700;
+    width: 1440px;
+    height: 600px;
+}
+
+.main-text{
+        font-size: 56px;
+        line-height: 1.07
 }
 
 .button {
@@ -61,7 +118,9 @@ h1 {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color: var(--white);
+        color: #ffffff;
+        background-color: #4d5ae5;
+        cursor: pointer;
 }
 
 .button:hover,
@@ -77,32 +136,48 @@ h3{
         color: var(--navy-blue);
 }
 
+.section-benefits{
+        color: #2e2f42;
+}
+
+.section-benefits-list{
+        list-style: none;
+}
 .benefits{
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--slate);
+        color: #434455;
         list-style: none;
+}
+
+.section-team{
+        background-color: #f4f4fd;
 }
 
 .our-team {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--navy-blue);
+        color: #2e2f42;
         list-style: none;
+        text-transform: capitalize;
 }
 
+.team-name-one{
+        background-color: #FFFFFF;
+        list-style: none;
+}
 .name {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--navy-blue);
+        color: #2e2f42;
 }
 
 .team {
@@ -111,17 +186,18 @@ h3{
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--slate);
+        color: #434455;
 }
 
 .our-portfolio {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--navy-blue);
+        color: #2e2f42;
         list-style: none;
+        text-transform: capitalize;
 }
 
 .portfolio {
@@ -129,7 +205,7 @@ h3{
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: var(--navy-blue);
+        color: #2e2f42;
 }
 
 .types {
@@ -137,18 +213,22 @@ h3{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--slate);
+        color: #434455;
 }
 
 footer {
         width: 1440px;
         height: 312px;
-        background: #2e2f42;
+        background-color: #2e2f42;
 }
 
 footer > .logo {
-        color: #f4f4fd;
+        color: #4d5ae5;
         text-decoration: none;
+}
+
+.studio{
+        color: #f4f4fd;
 }
 
 .footer-text {
