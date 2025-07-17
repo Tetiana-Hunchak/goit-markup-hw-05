@@ -222,12 +222,7 @@ footer {
         background-color: #2e2f42;
 }
 
-footer > .logo {
-        color: #4d5ae5;
-        text-decoration: none;
-}
-
-.studio{
+.footer-studio{
         color: #f4f4fd;
 }
 
