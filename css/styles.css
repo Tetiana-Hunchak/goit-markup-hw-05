@@ -6,8 +6,6 @@ body {
 }
 
 nav {
-       width: 1440px;
-       height: 72px;
        list-style: none;
 }
 
@@ -19,6 +17,7 @@ nav {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
+        color: #4d5ae5;
 }
 
 span{
@@ -27,10 +26,6 @@ span{
         line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
-}
-
-.nav-web{
         color: #2e2f42;
 }
 
@@ -42,29 +37,11 @@ span{
         list-style: none;
 }
 
-.header-list-studio{
+.header-list-item{
         color: #2e2f42;
 }
-.header-list-studio:hover,
-.header-list-studio:focus{
-        color: #404bbf;
-}
-
-.header-list-portfolio {
-        color: #2e2f42;
-}
-
-.header-list-portfolio:hover,
-.header-list-portfolio:focus{
-        color: #404bbf;
-}
-
-.header-list-contacts {
-        color: #2e2f42;
-}
-
-.header-list-contacts:hover,
-.header-list-contacts:focus{
+.header-list-item:hover,
+.header-list-item:focus{
         color: #404bbf;
 }
 
@@ -81,27 +58,17 @@ address{
         color: var(--slate);
 }
 
-address> contacts{
+address> .contacts{
         font-style: normal;
 }
 
-.contacts-mail {
+.contacts-list-item {
         color: #434455;
 }
 
-.contacts-mail:hover,
-.ontacts-mail:focus {
+.contacts-list-item:hover,
+.ontacts-list-item:focus {
        color: #404bbf;
-}
-
-.contacts-tel{
-        color: #434455;  
-        list-style: none; 
-}
-
-.contacts-tel:hover,
-.contacts.tel:focus{
-      color:   #404bbf;
 }
 
 .main {
@@ -110,8 +77,6 @@ address> contacts{
     letter-spacing: 0.02em;
     color: #fff;
     font-weight: 700;
-    width: 1440px;
-    height: 600px;
 }
 
 .main-text{
@@ -120,7 +85,7 @@ address> contacts{
         letter-spacing: 0.02em;
 }
 
-.button-order {
+.btn-order {
        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -130,8 +95,8 @@ address> contacts{
         cursor: pointer;
 }
 
-.button-order:hover,
-.button-order:focus {
+.btn-order:hover,
+.btn-order:focus {
      background-color: #404bbf;
 }
 
@@ -226,8 +191,6 @@ h3{
 }
 
 footer {
-        width: 1440px;
-        height: 312px;
         background-color: #2e2f42;
 }
 
