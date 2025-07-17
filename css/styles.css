@@ -30,6 +30,10 @@ span{
         color: #4d5ae5;
 }
 
+.nav-web{
+        color: #2e2f42;
+}
+
 .header-list {
        font-weight: 500;
         font-size: 16px;
@@ -64,23 +68,25 @@ span{
         color: #404bbf;
 }
 
+.contacts-list{
+        list-style: none;
+}
+
 address{
         font-weight: 400;
         font-size: 16px;
+        font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--slate);
-        list-style: none;
-
 }
 
 address> contacts{
         font-style: normal;
 }
 
-.contacts-mail{
+.contacts-mail {
         color: #434455;
-        list-style: none;
 }
 
 .contacts-mail:hover,
@@ -110,10 +116,11 @@ address> contacts{
 
 .main-text{
         font-size: 56px;
-        line-height: 1.07
+        line-height: 1.07;
+        letter-spacing: 0.02em;
 }
 
-.button {
+.button-order {
        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -123,8 +130,8 @@ address> contacts{
         cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button-order:hover,
+.button-order:focus {
      background-color: #404bbf;
 }
 
@@ -136,13 +143,11 @@ h3{
         color: var(--navy-blue);
 }
 
-.section-benefits{
-        color: #2e2f42;
-}
-
 .section-benefits-list{
+        color: #2e2f42;
         list-style: none;
 }
+
 .benefits{
         font-weight: 400;
         font-size: 16px;
