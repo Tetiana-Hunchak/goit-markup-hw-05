@@ -5,7 +5,7 @@ body {
     background-color: #FFFFFF;
 }
 
-nav {
+.header-info {
        list-style: none;
 }
 
@@ -20,7 +20,7 @@ nav {
         color: #4d5ae5;
 }
 
-span{
+.nav-studio {
         font-weight: 700;
         font-size: 18px;
         line-height: 1.16667;
@@ -39,6 +39,7 @@ span{
 
 .header-list-item{
         color: #2e2f42;
+        text-decoration: none;
 }
 .header-list-item:hover,
 .header-list-item:focus{
@@ -64,6 +65,7 @@ address> .contacts{
 
 .contacts-list-item {
         color: #434455;
+        text-decoration: none;
 }
 
 .contacts-list-item:hover,
