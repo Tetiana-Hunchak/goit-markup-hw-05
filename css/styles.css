@@ -130,6 +130,7 @@ address> .contacts{
     letter-spacing: 0.02em;
     color: #fff;
     font-weight: 700;
+    padding: 188px 0;
 }
 
 .main-text{
@@ -150,6 +151,10 @@ address> .contacts{
         color: #ffffff;
         background-color: #4d5ae5;
         cursor: pointer;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
         margin-left: auto;
         margin-right: auto;
         margin-top: 48px;
@@ -169,6 +174,10 @@ address> .contacts{
 .btn-order:hover,
 .btn-order:focus {
      background-color: #404bbf;
+}
+
+.hero-benefits{
+        padding: 120px 0;
 }
 
 h3{
@@ -195,7 +204,6 @@ h3{
 .section-benefits-list{
         color: #2e2f42;
         list-style: none;
-        padding: 120px 156px;
         display: flex;
         gap: 24px;
         margin: 0;
@@ -205,6 +213,10 @@ h3{
         width: calc((100% - 24px * 3) / 4);
 }
 
+.section-benefits-description{
+        margin-bottom: 8px;
+}
+
 .benefits{
         font-weight: 400;
         font-size: 16px;
@@ -212,7 +224,6 @@ h3{
         letter-spacing: 0.02em;
         color: #434455;
         list-style: none;
-        margin-top: 8px;
 }
 
 .team-list{
