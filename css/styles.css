@@ -15,6 +15,8 @@ h1, h2, h3, h4, h5, h6, p {
         margin: 0;
 }
 
+/*header*/
+
 .page-header{
         border-bottom: 1px solid #e7e9fc;
 }
@@ -119,9 +121,10 @@ address> .contacts{
        color: #404bbf;
 }
 
+/*main*/ /*main-container*/
+
 .main-container{
-        margin: 0 auto;
-        padding: 0;
+        max-width: 100%;
 }
 
 .main {
@@ -139,7 +142,6 @@ address> .contacts{
         letter-spacing: 0.02em;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 188px;
         max-width: 496px;
 }
 
@@ -176,8 +178,15 @@ address> .contacts{
      background-color: #404bbf;
 }
 
+/*main*/ /*container-benefits*/
+
+.container-benefits{
+        max-width: 100%;
+}
+
 .hero-benefits{
         padding: 120px 0;
+
 }
 
 h3{
@@ -206,7 +215,8 @@ h3{
         list-style: none;
         display: flex;
         gap: 24px;
-        margin: 0;
+        margin: 0 120px;
+        padding-left: 0;
 }
 
 .main-benefits-list {
@@ -226,21 +236,22 @@ h3{
         list-style: none;
 }
 
+/*main*/ /*team*/
+
+.container-team{
+        max-width: 100%;
+}
 .team-list{
         display: flex;
-        justify-content: center;
         gap: 24px;
         flex-wrap: wrap;
-        padding: auto;
         padding-left: 0;
-        margin-top: 0;
-        margin-bottom: 120px;
 }
 
 .section-team{
         background-color: #f4f4fd;
         text-align: center;
-        padding-bottom: 120px;
+        padding: 120px 0;
 }
 
 img{
@@ -257,7 +268,6 @@ img{
         color: #2e2f42;
         list-style: none;
         text-transform: capitalize;
-        padding-top: 120px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 72px;
@@ -268,7 +278,8 @@ img{
         list-style: none;
         text-align: center;
         border-radius: 0 0 4px 4px;
-        width: 264px;
+        width: calc((100% - 3 * 24px) / 4);
+        justify-content: center;
 }
 
 .name {
