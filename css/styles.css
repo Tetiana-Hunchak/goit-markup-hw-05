@@ -15,6 +15,11 @@ h1, h2, h3, h4, h5, h6, p {
         margin: 0;
 }
 
+ul, ol{
+        margin: 0;
+        padding: 0;
+}
+
 /*header*/
 
 .page-header{
@@ -123,9 +128,6 @@ address> .contacts{
 
 /*main*/ /*main-container*/
 
-.main-container{
-        max-width: 100%;
-}
 
 .main {
     background-color: #2e2f42;
@@ -277,8 +279,6 @@ img{
         list-style: none;
         text-align: center;
         border-radius: 0 0 4px 4px;
-        display: flex;
-        flex-direction: column;
         padding-left: 0;
         flex-basis: calc((100% - 72px) / 4);
 }
@@ -307,8 +307,6 @@ img{
 }
 
 .name, .team{
-        display: flex;
-        align-items: center;
         justify-content: center;
         flex-direction: column;
  
@@ -386,12 +384,10 @@ img{
 }
 
 .portfolio, .types{
-        display: flex;
-        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
         gap: 8px;
-        padding-left: 16px;
+        text-align: left;
 }
 
 /*footer*/
