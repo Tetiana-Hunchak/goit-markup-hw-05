@@ -605,8 +605,34 @@ footer {
        background-color: #31d0aa;
 }
 
-.suscribe{
+.subscribe{
         margin-left: auto;
+        display: flex;
+        flex-direction: column;
+}
+
+.btn-suscribe{
+        min-width: 165px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding-left: 24px;
+        padding-right: 24px;
+}
+
+.placeholder-email{
+        width: 264px;
+        height: 40px;
+        margin-right: 24px;
+}
+
+.subscribe-text{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
 }
 
 /*overlay*/
