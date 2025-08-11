@@ -430,54 +430,55 @@
     </button>
 
     <form name="feedback-form">
-
       <div class="feedback-container">
-      <label for="username">Name
+      <label for="username" class="feedback-label">Name</label>
         <div class="feedback-icons">
-        <input type="text" name="username" id="username">
+        <input type="text" name="username" id="username" class="wrapper-icons">
         <svg class="icons" width="18" height="18">
           <use href="./images/icons.svg#icon-person"></use>
         </svg>
       </div>
-      </label>
     </div>
 
      <div class="feedback-container">
-      <label for="phone">Phone
+      <label for="phone" class="feedback-label">Phone</label>
         <div class="feedback-icons">
-        <input type="tel" name="phone" id="phone">
+        <input type="tel" name="phone" id="phone" class="wrapper-icons">
          <svg class="icons" width="18" height="18">
            <use href="./images/icons.svg#icon-phone"></use>
          </svg>
       </div>
-      </label>
+      
     </div>
 
     <div class="feedback-container">
-      <label for="email">Email
+      <label for="email" class="feedback-label">Email</label>
         <div class="feedback-icons">
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" class="wrapper-icons">
          <svg class="icons" width="18" height="18">
            <use href="./images/icons.svg#icon-email"></use>
          </svg>
       </div>
-      </label>
+     
     </div>
 
     <div class="feedback-container">
-      <label for="comment">Comment
-        <textarea name="comment" id="comment" placeholder="Text input"></textarea>
-      </label>
+      <label for="comment" class="feedback-label">Comment</label>
+        <textarea class="feedback-textarea" name="comment" id="comment" placeholder="Text input"></textarea>
     </div>
 
     </form>
 
-    <div>
-      <input type="checkbox">
-      <label for="">
-        <span></span>
-        <p>I accept the terms and conditions of the</p>
-        <a href="#">Privacy Policy</a>
+    <div class="checkbox-field">
+      <input class="checkbox-input visually-hidden" type="checkbox" name="privacy" id="privacy" value="true">
+      <label class="checkbox-label" for="privacy">
+        <span class="checkbox-span">
+          <svg class="checkbox-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-check"></use>
+          </svg>
+        </span>
+        <p class="privacy-text">I accept the terms and conditions of the</p>
+        <a href="#" class="privacy-link">Privacy Policy</a>
       </label>
     </div>
 
