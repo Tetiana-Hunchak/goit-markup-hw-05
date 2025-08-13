@@ -809,7 +809,7 @@ footer {
         display: flex;
         margin-bottom: 16px;
         flex-direction: column;
-        margin-bottom: 16px;
+        margin-bottom: 8px;
 }
 
 .feedback-icons{
@@ -840,6 +840,10 @@ footer {
 
 .feedback-textarea:focus{
         border-color: #4D5AE5;
+}
+
+.feedback-comment{
+        margin-bottom: 16px;
 }
 
 .wrapper-icons{
@@ -880,8 +884,6 @@ footer {
 }
 
 .checkbox-label{
-        display: flex;
-        align-items: center;
         cursor: pointer;
         font-weight: 400;
         font-size: 12px;
@@ -894,7 +896,6 @@ footer {
 .checkbox-field{
         display: flex;
         align-items: center;
-    
         margin-bottom: 24px;
         
 }
